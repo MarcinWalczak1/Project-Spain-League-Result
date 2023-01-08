@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a class="result-live" href="live.html">Wyniki na żywo</a></li>
+        </ul>
+    </nav>
+    <header>
+    <div class="ligue-list">
+        <h2 class="choose-league">Wybierz swoją ulubioną ligę:</h2>
+      <a href="#laliga-table" id="laliga-button"> <img class="laliga-image" src="images/LaLiga_Santander_logo_(stacked).svg.png" alt="laliga-image"></a>
+      <a href="#segunda-table" id="segunda-button"><img class="segunda-image"  src="images/pobrane.png" alt=""></a>
+      <a href="#femina-table" id="femina-button"> <img class = "femina-image"src="images/Liga_F_icon.svg.png" alt=""></a>
+      <a href="#primera-table-group1" id="primera-button"><img class= "primera-image"src="images/Logo_Primera_RFEF.png" alt=""></a>
+    </div>
+    </header>
+    <main>
+        
+        <div class="laliga-table">
+            <h1 class="title">Tabela LaLiga</h1>
+        <table class="table">
+            <th>Drużyna</th>
+            <th>Bramki</th>
+            <th>Mecze</th>
+            <th>Punkty</th>
+        </table>
+            <ul class="teams-rank"></ul>
+            <ul class="teams-logo"></ul>
+            <ul class="teams-table" ></ul>
+            <ul class="goals" ></ul>
+            <ul class="matches-count"></ul>
+            <ul class="teams-points" ></ul>
+        </div>
+        <div class="segunda-table">
+            <table class="table">
+                <h1 class="title"> Tabela Segunda Division</h1>
+                <th>Drużyna</th>
+                <th>Bramki</th>
+                <th>Mecze</th>
+                <th>Punkty</th>
+            </table>
+            <ul class="segunda-teams-rank"></ul>
+            <ul class="segunda-teams-logo"></ul>
+            <ul class="segunda-teams-table" ></ul>
+            <ul class="segunda-goals" ></ul>
+            <ul class="segunda-matches-count"></ul>
+            <ul class="segunda-teams-points" ></ul>
+        </div>
+        <div class="femina-table">
+            <table class="table">
+                <h1 class="title"> Tabela Primera Division Femina</h1>
+                <th>Drużyna</th>
+                <th>Bramki</th>
+                <th>Mecze</th>
+                <th>Punkty</th>
+            </table>
+            <ul class="femina-teams-rank"></ul>
+            <ul class="femina-teams-logo"></ul>
+            <ul class="femina-teams-table" ></ul>
+            <ul class="femina-goals" ></ul>
+            <ul class="femina-matches-count"></ul>
+            <ul class="femina-teams-points" ></ul>
+        </div>
+       
+       
+        <div class="primera-table-group1">
+             <table class="table">
+                <h1 class="title"> Tabela Primera Division</h1>
+                <th class="primera-th">Drużyna</th>
+                <th class="primera-th">Bramki</th>
+                <th class="primera-th">Mecze</th>
+                <th class="primera-th">Punkty</th>
+            </table>
+            <ul class="group1-teams-rank"></ul>
+            <ul class="group1-teams-logo"></ul>
+            <ul class="group1-teams-table" ></ul>
+            <ul class="group1-goals" ></ul>
+            <ul class="group1-matches-count"></ul>
+            <ul class="group1-teams-points" ></ul>
+        </div>
+    
+
+    </main>
+    <div id="response"></div>
+    <script type="text/javascript" src="config.js"></script>
+    <script src="app.js"></script>
+    <script type="text/javascript" src="lalliga.js"></script>
+    <script src="js/express.js"></script>
+</body>
+</html>
