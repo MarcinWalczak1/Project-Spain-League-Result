@@ -1,6 +1,6 @@
 # Project-Spain-League-Result
 
-Spain-League-Result is a page that contains all the current tables of the Spanish league. The data is fetched from the api-football API.
+Spain-League-Result is a page that contains all the current tables of the Spanish league. The data is fetched from API api-football.
 
 ![image](https://user-images.githubusercontent.com/105975068/211293394-cb66ff33-6d93-40e5-941b-17b83e3ad36d.png)
 
